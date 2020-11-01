@@ -1,0 +1,72 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body {
+    font-family: "Lato";
+}
+.text5{
+    position:absolute;
+    left: 680px;
+    top: 1201px;
+    color: #FEC517;
+    font-weight: bold;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+.text6{
+    position:absolute;
+    left: 692px;
+    top: 1251px;
+    color: #ffffff;
+    font-weight: normal;
+    font-size: 16px;
+}
+.text7{
+    position:absolute;
+    left: 692px;
+    top: 1281px;
+    color: #ffffff;
+    font-weight: normal;
+    font-size: 16px;
+}
+.text8{
+    position:absolute;
+    left: 692px;
+    top: 1311px;
+    color: #ffffff;
+    font-weight: normal;
+    font-size: 16px;
+}
+.text9{
+    position:absolute;
+    left: 692px;
+    top: 1341px;
+    color: #ffffff;
+    font-weight: normal;
+    font-size: 16px;
+}
+.text10{
+    position:absolute;
+    left: 692px;
+    top: 1370px;
+    color: #ffffff;
+    font-weight: normal;
+    font-size: 16px;
+}
+.text11{
+    position:absolute;
+    left: 692px;
+    top: 1460px;
+    color: #ffffff;
+    font-weight: normal;
+    font-size: 16px;
+}
+.text12{
+    position:absolute;
+    left: 692px;
+    top: 1535px;
+    color: #ffffff;
+    font-weight: normal;
+    font-size: 16px;
+}
