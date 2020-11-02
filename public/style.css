@@ -198,4 +198,13 @@ body {
     font-weight: bold;
     font-size: 36px;
     text-transform: uppercase;
+    text-align: right;
+}
+.text23{
+    position:absolute;
+    left: 700px;
+    top: 2570px;
+    color: #ffffff;
+    font-weight: normal;
+    font-size: 18px;
 }
