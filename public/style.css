@@ -189,3 +189,13 @@ body {
     font-size: 16px;
 }
 /* Fin tercera sección de navegación */
+
+.text22{
+    position:absolute;
+    left: 750px;
+    top: 3400px;
+    color: #FEC517;
+    font-weight: bold;
+    font-size: 36px;
+    text-transform: uppercase;
+}
