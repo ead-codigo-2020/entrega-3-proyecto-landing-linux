@@ -203,8 +203,9 @@ body {
 .text23{
     position:absolute;
     left: 700px;
-    top: 2570px;
+    top: 3600px;
     color: #ffffff;
     font-weight: normal;
     font-size: 18px;
+    text-align: right;
 }
