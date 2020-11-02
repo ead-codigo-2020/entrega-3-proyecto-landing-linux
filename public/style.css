@@ -7,16 +7,16 @@ body {
 }
 .text3{
     position:absolute;
-    left: 692px;
-    top: 100px;
+    left: 762px;
+    top: 195px;
     color: #000000;
     font-weight: normal;
     font-size: 24px;
-    -webkit-transform: rotate(-26deg); 
-    -moz-transform: rotate(-26deg); 
-    -ms-transform: rotate(-26deg); 
-    -o-transform: rotate(-26deg); 
-    transform: rotate(-26deg); 
+    -webkit-transform: rotate(-24deg); 
+    -moz-transform: rotate(-24deg); 
+    -ms-transform: rotate(-24deg); 
+    -o-transform: rotate(-24deg); 
+    transform: rotate(-24deg); 
     
     -webkit-transform-origin: 50% 50%; 
     -moz-transform-origin: 50% 50%; 
@@ -26,16 +26,16 @@ body {
 }
 .text4{
     position:absolute;
-    left: 692px;
-    top: 500px;
+    left: 580px;
+    top: 490px;
     color: #000000;
     font-weight: normal;
     font-size: 18px;
-    -webkit-transform: rotate(-26deg); 
-    -moz-transform: rotate(-26deg); 
-    -ms-transform: rotate(-26deg); 
-    -o-transform: rotate(-26deg); 
-    transform: rotate(-26deg); 
+    -webkit-transform: rotate(-24deg); 
+    -moz-transform: rotate(-24deg); 
+    -ms-transform: rotate(-24deg); 
+    -o-transform: rotate(-24deg); 
+    transform: rotate(-24deg); 
     
     -webkit-transform-origin: 50% 50%; 
     -moz-transform-origin: 50% 50%; 
@@ -193,7 +193,7 @@ body {
 .text22{
     position:absolute;
     left: 750px;
-    top: 3400px;
+    top: 3300px;
     color: #FEC517;
     font-weight: bold;
     font-size: 36px;
@@ -202,10 +202,43 @@ body {
 }
 .text23{
     position:absolute;
-    left: 750px;
-    top: 3600px;
+    left: 505px;
+    top: 3360px;
     color: #ffffff;
     font-weight: normal;
     font-size: 18px;
     text-align: right;
 }
+/* Fin cuarta sección de navegación */
+
+.text40{
+    position:absolute;
+    left: 400px;
+    top: 4710px;
+    color: #000000;
+    font-weight: normal;
+    font-size: 18px;
+    text-align: right;
+    text-transform: uppercase;
+}
+.text41{
+    position:absolute;
+    left: 370px;
+    top: 4780px;
+    color: #000000;
+    font-weight: normal;
+    font-size: 18px;
+    text-align: right;
+    text-transform: uppercase;
+}
+.text42{
+    position:absolute;
+    left: 420px;
+    top: 4850px;
+    color: #000000;
+    font-weight: normal;
+    font-size: 18px;
+    text-align: right;
+    text-transform: uppercase;
+}
+/* Fin pie de pagina */
