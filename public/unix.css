@@ -7,7 +7,7 @@ body {
 }
 .text1{
     position:absolute;
-    left: 540px;
+    left: 620px;
     top: 305px;
     color: #000000;
     font-weight: normal;
@@ -28,7 +28,7 @@ body {
 .text5{
     position:absolute;
     left: 760px;
-    top: 560px;
+    top: 580px;
     color: #000000;
     font-weight: normal;
     font-size: 16px;
@@ -36,7 +36,7 @@ body {
 .text6{
     position:absolute;
     left: 760px;
-    top: 610px;
+    top: 670px;
     color: #000000;
     font-weight: normal;
     font-size: 16px;
@@ -44,15 +44,7 @@ body {
 .text7{
     position:absolute;
     left: 760px;
-    top: 700px;
-    color: #000000;
-    font-weight: normal;
-    font-size: 16px;
-}
-.text8{
-    position:absolute;
-    left: 760px;
-    top: 790px;
+    top: 740px;
     color: #000000;
     font-weight: normal;
     font-size: 16px;
@@ -62,7 +54,7 @@ body {
 .text9{
     position:absolute;
     left: 400px;
-    top: 1080px;
+    top: 970px;
     color: #000000;
     font-weight: normal;
     font-size: 18px;
@@ -72,7 +64,7 @@ body {
 .text10{
     position:absolute;
     left: 370px;
-    top: 1150px;
+    top: 1040px;
     color: #000000;
     font-weight: normal;
     font-size: 18px;
@@ -82,7 +74,7 @@ body {
 .text11{
     position:absolute;
     left: 420px;
-    top: 1220px;
+    top: 1110px;
     color: #000000;
     font-weight: normal;
     font-size: 18px;
