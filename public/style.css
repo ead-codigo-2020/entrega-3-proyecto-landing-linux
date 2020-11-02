@@ -71,6 +71,7 @@ body {
     font-size: 16px;
 }
 /* Fin segunda sección de navegación */
+
 .text13{
     position:absolute;
     left: 120px;
@@ -80,3 +81,71 @@ body {
     font-size: 36px;
     text-transform: uppercase;
 }
+.text14{
+    position:absolute;
+    left: 700px;
+    top: 2010px;
+    color: #FEC517;
+    font-weight: normal;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.text15{
+    position:absolute;
+    left: 700px;
+    top: 2040px;
+    color: #ffffff;
+    font-weight: normal;
+    font-size: 16px;
+}
+.text16{
+    position:absolute;
+    left: 700px;
+    top: 2110px;
+    color: #ffffff;
+    font-weight: normal;
+    font-size: 16px;
+}
+.text17{
+    position:absolute;
+    left: 700px;
+    top: 2250px;
+    color: #FEC517;
+    font-weight: normal;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.text18{
+    position:absolute;
+    left: 700px;
+    top: 2280px;
+    color: #ffffff;
+    font-weight: normal;
+    font-size: 16px;
+}
+.text19{
+    position:absolute;
+    left: 700px;
+    top: 2370px;
+    color: #ffffff;
+    font-weight: normal;
+    font-size: 16px;
+}
+.text20{
+    position:absolute;
+    left: 700px;
+    top: 2540px;
+    color: #FEC517;
+    font-weight: normal;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.text21{
+    position:absolute;
+    left: 700px;
+    top: 2570px;
+    color: #ffffff;
+    font-weight: normal;
+    font-size: 16px;
+}
+/* Fin tercera sección de navegación */
