@@ -1,0 +1,92 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body {
+    font-family: "Lato";
+}
+.text1{
+    position:absolute;
+    left: 540px;
+    top: 305px;
+    color: #000000;
+    font-weight: normal;
+    font-size: 16px;
+    -webkit-transform: rotate(-24deg); 
+    -moz-transform: rotate(-24deg); 
+    -ms-transform: rotate(-24deg); 
+    -o-transform: rotate(-24deg); 
+    transform: rotate(-24deg); 
+    
+    -webkit-transform-origin: 50% 50%; 
+    -moz-transform-origin: 50% 50%; 
+    -ms-transform-origin: 50% 50%; 
+    -o-transform-origin: 50% 50%; 
+    transform-origin: 50% 50%; 
+}
+/* Fin navegación principal */
+.text5{
+    position:absolute;
+    left: 760px;
+    top: 560px;
+    color: #000000;
+    font-weight: normal;
+    font-size: 16px;
+}
+.text6{
+    position:absolute;
+    left: 760px;
+    top: 610px;
+    color: #000000;
+    font-weight: normal;
+    font-size: 16px;
+}
+.text7{
+    position:absolute;
+    left: 760px;
+    top: 700px;
+    color: #000000;
+    font-weight: normal;
+    font-size: 16px;
+}
+.text8{
+    position:absolute;
+    left: 760px;
+    top: 790px;
+    color: #000000;
+    font-weight: normal;
+    font-size: 16px;
+}
+/* Fin navegación principal */
+
+.text9{
+    position:absolute;
+    left: 400px;
+    top: 1080px;
+    color: #000000;
+    font-weight: normal;
+    font-size: 18px;
+    text-align: right;
+    text-transform: uppercase;
+}
+.text10{
+    position:absolute;
+    left: 370px;
+    top: 1150px;
+    color: #000000;
+    font-weight: normal;
+    font-size: 18px;
+    text-align: right;
+    text-transform: uppercase;
+}
+.text11{
+    position:absolute;
+    left: 420px;
+    top: 1220px;
+    color: #000000;
+    font-weight: normal;
+    font-size: 18px;
+    text-align: right;
+    text-transform: uppercase;
+}
+/* Fin pie de pagina */
