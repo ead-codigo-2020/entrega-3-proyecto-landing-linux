@@ -70,3 +70,13 @@ body {
     font-weight: normal;
     font-size: 16px;
 }
+/* Fin segunda sección de navegación */
+.text13{
+    position:absolute;
+    left: 120px;
+    top: 1901px;
+    color: #FEC517;
+    font-weight: bold;
+    font-size: 36px;
+    text-transform: uppercase;
+}
