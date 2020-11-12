@@ -7,16 +7,16 @@ body {
 }
 .text1{
     position:absolute;
-    left: 620px;
-    top: 305px;
+    left: 326px;
+    top: 375px;
     color: #000000;
     font-weight: normal;
     font-size: 16px;
-    -webkit-transform: rotate(-24deg); 
-    -moz-transform: rotate(-24deg); 
-    -ms-transform: rotate(-24deg); 
-    -o-transform: rotate(-24deg); 
-    transform: rotate(-24deg); 
+    -webkit-transform: rotate(-23deg); 
+    -moz-transform: rotate(-23deg); 
+    -ms-transform: rotate(-23deg); 
+    -o-transform: rotate(-23deg); 
+    transform: rotate(-23deg); 
     
     -webkit-transform-origin: 50% 50%; 
     -moz-transform-origin: 50% 50%; 
