@@ -209,6 +209,33 @@ body {
     font-size: 18px;
     text-align: right;
 }
+.text24{
+    position:absolute;
+    left: 25%;
+    top: 4200px;
+    color: #FEC517;
+    font-weight: normal;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.text25{
+    position:absolute;
+    left: 25%;
+    top: 4250px;
+    color: #ffffff;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 7mm;
+}
+.text26{
+    position:absolute;
+    left: 25%;
+    top: 4330px;
+    color: #ffffff;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 7mm;
+}
 /* Fin cuarta sección de navegación */
 
 .text40{
