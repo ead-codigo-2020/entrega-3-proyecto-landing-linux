@@ -208,6 +208,7 @@ body {
     font-weight: normal;
     font-size: 18px;
     text-align: right;
+    line-height: 6mm;
 }
 .text24{
     position:absolute;
@@ -225,7 +226,7 @@ body {
     color: #ffffff;
     font-weight: normal;
     font-size: 18px;
-    line-height: 7mm;
+    line-height: 6mm;
 }
 .text26{
     position:absolute;
@@ -234,7 +235,7 @@ body {
     color: #ffffff;
     font-weight: normal;
     font-size: 18px;
-    line-height: 7mm;
+    line-height: 6mm;
 }
 /* Fin cuarta sección de navegación */
 
