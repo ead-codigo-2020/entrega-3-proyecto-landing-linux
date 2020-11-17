@@ -95,15 +95,6 @@ body {
     -o-transform-origin: 50% 50%; 
     transform-origin: 50% 50%; 
 }
-.imagen1 {
-    background-image: url(linuxlogopequeño.png);
-    position: absolute;
-    visibility: visible;
-    height: 105px;
-    width: 160px;
-    top: 30px;
-    left: 545px;
-}
 .imagen2 {
     background-image: url(logognupeqeño.png);
     position: absolute;
@@ -112,15 +103,6 @@ body {
     width: 67px;
     top: 123px;
     left: 460px;
-}
-.imagen3 {
-    background-image: url(logominixpequeño.png);
-    position: absolute;
-    visibility: visible;
-    height: 57px;
-    width: 107px;
-    top: 155px;
-    left: 348px;
 }
 .imagen4 {
     background-image: url(logounixpequeño.png);
