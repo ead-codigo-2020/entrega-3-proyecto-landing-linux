@@ -95,24 +95,6 @@ body {
     -o-transform-origin: 50% 50%; 
     transform-origin: 50% 50%; 
 }
-.imagen2 {
-    background-image: url(logognupeqeño.png);
-    position: absolute;
-    visibility: visible;
-    height: 45px;
-    width: 67px;
-    top: 123px;
-    left: 460px;
-}
-.imagen4 {
-    background-image: url(logounixpequeño.png);
-    position: absolute;
-    visibility: visible;
-    height: 70px;
-    width: 90px;
-    top: 190px;
-    left: 260px;
-}
 .imagen5 {
     background-image: url(pingui.png);
     position: absolute;
