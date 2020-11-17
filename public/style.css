@@ -5,13 +5,6 @@
 body {
     font-family: "Lato";
 }
-element.style {
-}
-@media screen and (min-width:500px)
-.home{
-    display:flex;
-    flex-wrap: wrap;
-}
 .text3{
     position:absolute;
     left: 762px;
