@@ -5,6 +5,13 @@
 body {
     font-family: "Lato";
 }
+element.style {
+}
+@media screen and (min-width:500px)
+.home{
+    display:flex;
+    flex-wrap: wrap;
+}
 .text3{
     position:absolute;
     left: 762px;
@@ -12,6 +19,7 @@ body {
     color: #000000;
     font-weight: normal;
     font-size: 24px;
+    min-width: 300px;
     -webkit-transform: rotate(-24deg); 
     -moz-transform: rotate(-24deg); 
     -ms-transform: rotate(-24deg); 
@@ -31,6 +39,7 @@ body {
     color: #000000;
     font-weight: normal;
     font-size: 18px;
+    min-width: 250px;
     -webkit-transform: rotate(-24deg); 
     -moz-transform: rotate(-24deg); 
     -ms-transform: rotate(-24deg); 
@@ -53,6 +62,7 @@ body {
     font-weight: bold;
     font-size: 24px;
     text-transform: uppercase;
+    min-width: 250px;
 }
 .text6{
     position:absolute;
@@ -61,6 +71,7 @@ body {
     color: #ffffff;
     font-weight: normal;
     font-size: 16px;
+    min-width: 250px;
 }
 .text7{
     position:absolute;
@@ -69,6 +80,7 @@ body {
     color: #ffffff;
     font-weight: normal;
     font-size: 16px;
+    min-width: 300px;
 }
 .text8{
     position:absolute;
@@ -77,6 +89,7 @@ body {
     color: #ffffff;
     font-weight: normal;
     font-size: 16px;
+    min-width: 300px;
 }
 .text9{
     position:absolute;
@@ -85,6 +98,7 @@ body {
     color: #ffffff;
     font-weight: normal;
     font-size: 16px;
+    min-width: 300px;
 }
 .text10{
     position:absolute;
@@ -93,6 +107,7 @@ body {
     color: #ffffff;
     font-weight: normal;
     font-size: 16px;
+    min-width: 300px;
 }
 .text11{
     position:absolute;
@@ -101,6 +116,7 @@ body {
     color: #ffffff;
     font-weight: normal;
     font-size: 16px;
+    min-width: 300px;
 }
 .text12{
     position:absolute;
@@ -109,6 +125,7 @@ body {
     color: #ffffff;
     font-weight: normal;
     font-size: 16px;
+    min-width: 300px;
 }
 /* Fin segunda sección de navegación */
 
@@ -120,6 +137,7 @@ body {
     font-weight: bold;
     font-size: 36px;
     text-transform: uppercase;
+    min-width: 100px;
 }
 .text14{
     position:absolute;
@@ -129,6 +147,7 @@ body {
     font-weight: normal;
     font-size: 18px;
     text-transform: uppercase;
+    min-width: 100px;
 }
 .text15{
     position:absolute;
@@ -137,6 +156,7 @@ body {
     color: #ffffff;
     font-weight: normal;
     font-size: 16px;
+    min-width: 250px;
 }
 .text16{
     position:absolute;
@@ -145,6 +165,7 @@ body {
     color: #ffffff;
     font-weight: normal;
     font-size: 16px;
+    min-width: 250px;
 }
 .text17{
     position:absolute;
@@ -154,6 +175,7 @@ body {
     font-weight: normal;
     font-size: 18px;
     text-transform: uppercase;
+    min-width: 100px;
 }
 .text18{
     position:absolute;
@@ -162,6 +184,7 @@ body {
     color: #ffffff;
     font-weight: normal;
     font-size: 16px;
+    min-width: 250px;
 }
 .text19{
     position:absolute;
@@ -170,6 +193,7 @@ body {
     color: #ffffff;
     font-weight: normal;
     font-size: 16px;
+    min-width: 250px;
 }
 .text20{
     position:absolute;
@@ -179,6 +203,7 @@ body {
     font-weight: normal;
     font-size: 18px;
     text-transform: uppercase;
+    min-width: 250px;
 }
 .text21{
     position:absolute;
@@ -187,9 +212,9 @@ body {
     color: #ffffff;
     font-weight: normal;
     font-size: 16px;
+    min-width: 250px;
 }
 /* Fin tercera sección de navegación */
-
 .text22{
     position:absolute;
     left: 750px;
@@ -199,6 +224,7 @@ body {
     font-size: 36px;
     text-transform: uppercase;
     text-align: right;
+    min-width: 50px;
 }
 .text23{
     position:absolute;
@@ -209,6 +235,7 @@ body {
     font-size: 18px;
     text-align: right;
     line-height: 6mm;
+    min-width: 250px;
 }
 .text24{
     position:absolute;
@@ -218,6 +245,7 @@ body {
     font-weight: normal;
     font-size: 18px;
     text-transform: uppercase;
+    min-width: 250px;
 }
 .text25{
     position:absolute;
@@ -227,6 +255,7 @@ body {
     font-weight: normal;
     font-size: 18px;
     line-height: 6mm;
+    min-width: 250px;
 }
 .text26{
     position:absolute;
@@ -236,6 +265,7 @@ body {
     font-weight: normal;
     font-size: 18px;
     line-height: 6mm;
+    min-width: 250px;
 }
 /* Fin cuarta sección de navegación */
 
@@ -248,6 +278,7 @@ body {
     font-size: 18px;
     text-align: right;
     text-transform: uppercase;
+    min-width: 250px;
 }
 .text41{
     position:absolute;
@@ -258,6 +289,7 @@ body {
     font-size: 18px;
     text-align: right;
     text-transform: uppercase;
+    min-width: 250px;
 }
 .text42{
     position:absolute;
@@ -268,5 +300,16 @@ body {
     font-size: 18px;
     text-align: right;
     text-transform: uppercase;
+    min-width: 250px;
+}
+.imagen1 {
+  background-image: url(logoead.png);
+  position: absolute;
+  visibility: visible;
+  height: 81px;
+  width: 341px;
+  top: 4760px;
+  left: 760px;
+  min-width: 0px;
 }
 /* Fin pie de pagina */
