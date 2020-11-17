@@ -48,6 +48,13 @@
 body {
     font-family: "Lato";
 }
+.imagen0 {
+    background-image: url(linuxprincipal.jpg);
+    position: absolute;
+    visibility: visible;
+    height: 4915px;
+    width: 1349px;
+}
 .text3{
     position:absolute;
     left: 762px;
@@ -85,6 +92,60 @@ body {
     -ms-transform-origin: 50% 50%; 
     -o-transform-origin: 50% 50%; 
     transform-origin: 50% 50%; 
+}
+.imagen1 {
+    background-image: url(linuxlogopequeño.png);
+    position: absolute;
+    visibility: visible;
+    height: 105px;
+    width: 160px;
+    top: 30px;
+    left: 545px;
+}
+.imagen2 {
+    background-image: url(logognupeqeño.png);
+    position: absolute;
+    visibility: visible;
+    height: 45px;
+    width: 67px;
+    top: 123px;
+    left: 460px;
+}
+.imagen3 {
+    background-image: url(logominixpequeño.png);
+    position: absolute;
+    visibility: visible;
+    height: 57px;
+    width: 107px;
+    top: 155px;
+    left: 348px;
+}
+.imagen4 {
+    background-image: url(logounixpequeño.png);
+    position: absolute;
+    visibility: visible;
+    height: 70px;
+    width: 90px;
+    top: 190px;
+    left: 260px;
+}
+.imagen5 {
+    background-image: url(pingui.png);
+    position: absolute;
+    visibility: visible;
+    height: 810px;
+    width: 985px;
+    top: 260px;
+    left: 20px;
+}
+.imagen6 {
+    background-image: url(linuxlogo.png);
+    position: absolute;
+    visibility: visible;
+    height: 530px;
+    width: 745px;
+    top: 110px;
+    left: 505px;
 }
 /* Fin navegación principal */
 
@@ -152,6 +213,15 @@ body {
     color: #ffffff;
     font-weight: normal;
     font-size: 16px;
+}
+.imagen7 {
+    background-image: url(creador.png);
+    position: absolute;
+    visibility: visible;
+    height: 454px;
+    width: 438px;
+    top: 1194px;
+    left: 160px;
 }
 /* Fin segunda sección de navegación */
 
@@ -230,6 +300,15 @@ body {
     color: #ffffff;
     font-weight: normal;
     font-size: 16px;
+}
+.imagen8 {
+    background-image: url(linuxicon.png);
+    position: absolute;
+    visibility: visible;
+    height: 1040px;
+    width: 630px;
+    top: 1963px;
+    left: 2px;
 }
 /* Fin tercera sección de navegación */
 
