@@ -5,11 +5,6 @@
 body {
     font-family: "Lato";
 }
-div @imagen {
-    height: 150px;
-    widht: 160px 
-    backgroun-imagen: url: (linuxlogopequeño.png); 
-}
 .text3{
     position:absolute;
     left: 762px;
@@ -273,5 +268,14 @@ div @imagen {
     font-size: 18px;
     text-align: right;
     text-transform: uppercase;
+}
+.imagen1 {
+    background-image: url(logoead.png);
+    position: absolute;
+    visibility: visible;
+    height: 81px;
+    width: 341px;
+    top: 4760px;
+    left: 760px;
 }
 /* Fin pie de pagina */
