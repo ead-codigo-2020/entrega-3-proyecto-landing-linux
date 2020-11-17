@@ -2,6 +2,49 @@
     margin: 0%;
     padding: 0%;
 }
+#header #top {
+    position:relative; max-width:1074px; min-width:320px; height:115px; margin:0 auto;
+}
+#header ul.menu {
+    position:relative; max-width:1008px; min-width:320px; height:95px;
+}
+#aux-main{
+    position:relative; max-width:1008px; min-width:320px; margin:0 auto;
+}
+#footer ul {
+    max-width:768px; min-width:320px; margin:10px auto; 
+}
+.page {
+    display: grid;
+}
+.page::after {
+    content: 'Visualización móviles';
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background: rgba( 255, 255, 255, 0.75 );
+    display: inline-block;
+    padding: 25px;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: 1px solid rgba( 0, 0, 0, 0.5 );
+    border-radius: 15px;
+}
+.page > * {
+    min-width: 20px;
+    min-height: 20px;
+}
+@media ( min-width: 768px ) {
+.page {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.page::after {
+    content: 'Visualización escritorio'
+}  
+/* Fin viewport */
+
 body {
     font-family: "Lato";
 }
@@ -305,4 +348,14 @@ body {
   left: 760px;
   min-width: 0px;
 }
+.imagen1 {
+    background-image: url(logoead.png);
+    position: absolute;
+    visibility: visible;
+    height: 81px;
+    width: 341px;
+    top: 4760px;
+    left: 760px;
+}
 /* Fin pie de pagina */
+}
