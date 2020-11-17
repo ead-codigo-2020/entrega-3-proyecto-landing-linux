@@ -5,6 +5,11 @@
 body {
     font-family: "Lato";
 }
+div @imagen {
+    height: 150px;
+    widht: 160px 
+    backgroun-imagen: url: (linuxlogopequeño.png); 
+}
 .text3{
     position:absolute;
     left: 762px;
