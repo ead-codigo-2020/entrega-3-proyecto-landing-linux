@@ -1,0 +1,732 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+#header #top {
+    position:relative; max-width:1074px; min-width:320px; height:115px; margin:0 auto;
+}
+#header ul.menu {
+    position:relative; max-width:1008px; min-width:320px; height:95px;
+}
+#aux-main{
+    position:relative; max-width:1008px; min-width:320px; margin:0 auto;
+}
+#footer ul {
+    max-width:768px; min-width:320px; margin:10px auto; 
+}
+.page {
+    display: grid;
+}
+.page::after {
+    content: 'Visualización móviles';
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background: rgba( 255, 255, 255, 0.75 );
+    display: inline-block;
+    padding: 25px;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: 1px solid rgba( 0, 0, 0, 0.5 );
+    border-radius: 15px;
+}
+.page > * {
+    min-width: 20px;
+    min-height: 20px;
+}
+@media ( min-width: 768px ) {
+.page {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.page::after {
+    content: 'Visualización escritorio'
+}  
+/* Fin viewport */
+
+body {
+    font-family: "Lato";
+}
+.imagen0 {
+    background-image: url(linuxprincipal.jpg);
+    position: absolute;
+    visibility: visible;
+    height: 6031px;
+    width: 1349px;
+}
+.text3{
+    position:absolute;
+    left: 762px;
+    top: 195px;
+    color: #000000;
+    font-weight: normal;
+    font-size: 24px;
+    min-width: 300px;
+    -webkit-transform: rotate(-24deg); 
+    -moz-transform: rotate(-24deg); 
+    -ms-transform: rotate(-24deg); 
+    -o-transform: rotate(-24deg); 
+    transform: rotate(-24deg); 
+    
+    -webkit-transform-origin: 50% 50%; 
+    -moz-transform-origin: 50% 50%; 
+    -ms-transform-origin: 50% 50%; 
+    -o-transform-origin: 50% 50%; 
+    transform-origin: 50% 50%; 
+}
+.text4{
+    position:absolute;
+    left: 580px;
+    top: 490px;
+    color: #000000;
+    font-weight: normal;
+    font-size: 18px;
+    min-width: 250px;
+    -webkit-transform: rotate(-24deg); 
+    -moz-transform: rotate(-24deg); 
+    -ms-transform: rotate(-24deg); 
+    -o-transform: rotate(-24deg); 
+    transform: rotate(-24deg); 
+    
+    -webkit-transform-origin: 50% 50%; 
+    -moz-transform-origin: 50% 50%; 
+    -ms-transform-origin: 50% 50%; 
+    -o-transform-origin: 50% 50%; 
+    transform-origin: 50% 50%; 
+}
+.imagen5 {
+    background-image: url(pingui.png);
+    position: absolute;
+    visibility: visible;
+    height: 810px;
+    width: 985px;
+    top: 260px;
+    left: 20px;
+}
+.imagen6 {
+    background-image: url(linuxlogo.png);
+    position: absolute;
+    visibility: visible;
+    height: 530px;
+    width: 745px;
+    top: 110px;
+    left: 505px;
+}
+/* Fin navegación principal */
+
+.text5{
+    position:absolute;
+    left: 680px;
+    top: 1201px;
+    color: #FEC517;
+    font-weight: bold;
+    font-size: 24px;
+    text-transform: uppercase;
+    min-width: 250px;
+}
+.text6{
+    position:absolute;
+    left: 692px;
+    top: 1251px;
+    color: #ffffff;
+    font-weight: normal;
+    font-size: 16px;
+    min-width: 250px;
+}
+.text7{
+    position:absolute;
+    left: 692px;
+    top: 1281px;
+    color: #ffffff;
+    font-weight: normal;
+    font-size: 16px;
+    min-width: 300px;
+}
+.text8{
+    position:absolute;
+    left: 692px;
+    top: 1311px;
+    color: #ffffff;
+    font-weight: normal;
+    font-size: 16px;
+    min-width: 300px;
+}
+.text9{
+    position:absolute;
+    left: 692px;
+    top: 1341px;
+    color: #ffffff;
+    font-weight: normal;
+    font-size: 16px;
+    min-width: 300px;
+}
+.text10{
+    position:absolute;
+    left: 692px;
+    top: 1370px;
+    color: #ffffff;
+    font-weight: normal;
+    font-size: 16px;
+    min-width: 300px;
+}
+.text11{
+    position:absolute;
+    left: 692px;
+    top: 1460px;
+    color: #ffffff;
+    font-weight: normal;
+    font-size: 16px;
+    min-width: 300px;
+}
+.text12{
+    position:absolute;
+    left: 692px;
+    top: 1535px;
+    color: #ffffff;
+    font-weight: normal;
+    font-size: 16px;
+    min-width: 300px;
+}
+.imagen7 {
+    background-image: url(creador.png);
+    position: absolute;
+    visibility: visible;
+    height: 454px;
+    width: 438px;
+    top: 1194px;
+    left: 160px;
+}
+/* Fin segunda sección de navegación */
+
+.text13{
+    position:absolute;
+    left: 120px;
+    top: 1901px;
+    color: #FEC517;
+    font-weight: bold;
+    font-size: 36px;
+    text-transform: uppercase;
+    min-width: 100px;
+}
+.text14{
+    position:absolute;
+    left: 700px;
+    top: 2010px;
+    color: #FEC517;
+    font-weight: normal;
+    font-size: 18px;
+    text-transform: uppercase;
+    min-width: 100px;
+}
+.text15{
+    position:absolute;
+    left: 700px;
+    top: 2040px;
+    color: #ffffff;
+    font-weight: normal;
+    font-size: 16px;
+    min-width: 250px;
+}
+.text16{
+    position:absolute;
+    left: 700px;
+    top: 2110px;
+    color: #ffffff;
+    font-weight: normal;
+    font-size: 16px;
+    min-width: 250px;
+}
+.text17{
+    position:absolute;
+    left: 700px;
+    top: 2250px;
+    color: #FEC517;
+    font-weight: normal;
+    font-size: 18px;
+    text-transform: uppercase;
+    min-width: 100px;
+}
+.text18{
+    position:absolute;
+    left: 700px;
+    top: 2280px;
+    color: #ffffff;
+    font-weight: normal;
+    font-size: 16px;
+    min-width: 250px;
+}
+.text19{
+    position:absolute;
+    left: 700px;
+    top: 2370px;
+    color: #ffffff;
+    font-weight: normal;
+    font-size: 16px;
+    min-width: 250px;
+}
+.text20{
+    position:absolute;
+    left: 700px;
+    top: 2540px;
+    color: #FEC517;
+    font-weight: normal;
+    font-size: 18px;
+    text-transform: uppercase;
+    min-width: 250px;
+}
+.text21{
+    position:absolute;
+    left: 700px;
+    top: 2570px;
+    color: #ffffff;
+    font-weight: normal;
+    font-size: 16px;
+    min-width: 250px;
+}
+.imagen8 {
+    background-image: url(linuxicon.png);
+    position: absolute;
+    visibility: visible;
+    height: 1040px;
+    width: 630px;
+    top: 1963px;
+    left: 2px;
+}
+/* Fin tercera sección de navegación */
+
+.text22{
+    position:absolute;
+    left: 750px;
+    top: 3300px;
+    color: #FEC517;
+    font-weight: bold;
+    font-size: 36px;
+    text-transform: uppercase;
+    text-align: right;
+    min-width: 50px;
+}
+.text23{
+    position:absolute;
+    left: 505px;
+    top: 3360px;
+    color: #ffffff;
+    font-weight: normal;
+    font-size: 18px;
+    text-align: right;
+    line-height: 6mm;
+    min-width: 250px;
+}
+
+/* Red-Had */
+.text24{
+    position:absolute;
+    left: 31%;
+    top: 4150px;
+    color: #FEC517;
+    font-weight: normal;
+    font-size: 18px;
+    text-transform: uppercase;
+    min-width: 250px;
+}
+.imagen9 {
+    position: absolute;
+    visibility: visible;
+    top: 3545px;
+    left: 20%;
+}
+
+@import "lesshat";
+
+.div-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.imagen9{
+    display:block;
+    transform:scale(1);
+    -ms-transform:scale(1); 
+    -moz-transform:scale(1); 
+    -webkit-transform:scale(1); 
+    -o-transform:scale(1);  
+    -webkit-transition: all 500ms ease-in-out; 
+    -moz-transition: all 500ms ease-in-out; 
+    -ms-transition: all 500ms ease-in-out;
+    -o-transition: all 500ms ease-in-out;         
+}      
+.imagen9:hover{
+    transform:scale(1.2);
+    -ms-transform:scale(1.2); 
+    -moz-transform:scale(1.2); 
+    -webkit-transform:scale(1.2);  
+    -o-transform:scale(1.2);      
+}
+.text25{
+    position:absolute;
+    left: 31%;
+    top: 4180px;
+    color: #ffffff;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 6mm;
+    min-width: 250px;
+}
+.text26{
+    position:absolute;
+    left: 31%;
+    top: 4240px;
+    color: #ffffff;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 6mm;
+    min-width: 250px;
+}
+/* Fin Red-Had */
+
+/* Ubuntu */
+.text27{
+    position:absolute;
+    left: 31%;
+    top: 4410px;
+    color: #FEC517;
+    font-weight: normal;
+    font-size: 18px;
+    text-transform: uppercase;
+    min-width: 250px;
+}
+.imagen10 {
+    position: absolute;
+    visibility: visible;
+    top: 3565px;
+    left: 40%;
+}
+
+@import "lesshat";
+
+.div-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.imagen10{
+    display:block;
+    transform:scale(1);
+    -ms-transform:scale(1); 
+    -moz-transform:scale(1); 
+    -webkit-transform:scale(1); 
+    -o-transform:scale(1);  
+    -webkit-transition: all 500ms ease-in-out; 
+    -moz-transition: all 500ms ease-in-out; 
+    -ms-transition: all 500ms ease-in-out;
+    -o-transition: all 500ms ease-in-out;      
+}      
+.imagen10:hover{
+    transform:scale(1.2);
+    -ms-transform:scale(1.2); 
+    -moz-transform:scale(1.2); 
+    -webkit-transform:scale(1.2);  
+    -o-transform:scale(1.2);  
+}
+.text28{
+    position:absolute;
+    left: 31%;
+    top: 4440px;
+    color: #ffffff;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 6mm;
+    min-width: 250px;
+}
+.text29{
+    position:absolute;
+    left: 31%;
+    top: 4540px;
+    color: #ffffff;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 6mm;
+    min-width: 250px;
+}
+/* Fin Ubuntu */
+
+/* Suse */
+.text30{
+    position:absolute;
+    left: 31%;
+    top: 4690px;
+    color: #FEC517;
+    font-weight: normal;
+    font-size: 18px;
+    text-transform: uppercase;
+    min-width: 250px;
+}
+.imagen11 {
+    position: absolute;
+    visibility: visible;
+    top: 3565px;
+    left: 59%;
+}
+
+@import "lesshat";
+
+.div-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.imagen11{
+    display:block;
+    transform:scale(1);
+    -ms-transform:scale(1); 
+    -moz-transform:scale(1); 
+    -webkit-transform:scale(1); 
+    -o-transform:scale(1);  
+    -webkit-transition: all 500ms ease-in-out; 
+    -moz-transition: all 500ms ease-in-out; 
+    -ms-transition: all 500ms ease-in-out;
+    -o-transition: all 500ms ease-in-out;      
+}      
+.imagen11:hover{
+    transform:scale(1.2);
+    -ms-transform:scale(1.2); 
+    -moz-transform:scale(1.2); 
+    -webkit-transform:scale(1.2);  
+    -o-transform:scale(1.2);  
+}
+.text31{
+    position:absolute;
+    left: 31%;
+    top: 4720px;
+    color: #ffffff;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 6mm;
+    min-width: 250px;
+}
+/* Fin Suse */
+
+/* Fedora */
+.text32{
+    position:absolute;
+    left: 31%;
+    top: 4930px;
+    color: #FEC517;
+    font-weight: normal;
+    font-size: 18px;
+    text-transform: uppercase;
+    min-width: 250px;
+}
+.imagen12 {
+    position: absolute;
+    visibility: visible;
+    top: 3810px;
+    left: 20%;
+}
+
+@import "lesshat";
+
+.div-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.imagen12{
+    display:block;
+    transform:scale(1);
+    -ms-transform:scale(1); 
+    -moz-transform:scale(1); 
+    -webkit-transform:scale(1); 
+    -o-transform:scale(1);  
+    -webkit-transition: all 500ms ease-in-out; 
+    -moz-transition: all 500ms ease-in-out; 
+    -ms-transition: all 500ms ease-in-out;
+    -o-transition: all 500ms ease-in-out;      
+}      
+.imagen12:hover{
+    transform:scale(1.2);
+    -ms-transform:scale(1.2); 
+    -moz-transform:scale(1.2); 
+    -webkit-transform:scale(1.2);  
+    -o-transform:scale(1.2);  
+}
+.text33{
+    position:absolute;
+    left: 31%;
+    top: 4960px;
+    color: #ffffff;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 6mm;
+    min-width: 250px;
+}
+/* Fin Fedora */
+
+/* Mandriva */
+.text34{
+    position:absolute;
+    left: 31%;
+    top: 5170px;
+    color: #FEC517;
+    font-weight: normal;
+    font-size: 18px;
+    text-transform: uppercase;
+    min-width: 250px;
+}
+.imagen13 {
+    position: absolute;
+    visibility: visible;
+    top: 3795px;
+    left: 40%;
+}
+
+@import "lesshat";
+
+.div-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.imagen13{
+    display:block;
+    transform:scale(1);
+    -ms-transform:scale(1); 
+    -moz-transform:scale(1); 
+    -webkit-transform:scale(1); 
+    -o-transform:scale(1);  
+    -webkit-transition: all 500ms ease-in-out; 
+    -moz-transition: all 500ms ease-in-out; 
+    -ms-transition: all 500ms ease-in-out;
+    -o-transition: all 500ms ease-in-out;      
+}      
+.imagen13:hover{
+    transform:scale(1.2);
+    -ms-transform:scale(1.2); 
+    -moz-transform:scale(1.2); 
+    -webkit-transform:scale(1.2);  
+    -o-transform:scale(1.2);  
+}
+.text35{
+    position:absolute;
+    left: 31%;
+    top: 5200px;
+    color: #ffffff;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 6mm;
+    min-width: 250px;
+}
+/* Fin Mandriva */
+
+/* Debian */
+.text36{
+    position:absolute;
+    left: 31%;
+    top: 5390px;
+    color: #FEC517;
+    font-weight: normal;
+    font-size: 18px;
+    text-transform: uppercase;
+    min-width: 250px;
+}
+.imagen14 {
+    position: absolute;
+    visibility: visible;
+    top: 3810px;
+    left: 59%;
+}
+
+@import "lesshat";
+
+.div-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.imagen14{
+    display:block;
+    transform:scale(1);
+    -ms-transform:scale(1); 
+    -moz-transform:scale(1); 
+    -webkit-transform:scale(1); 
+    -o-transform:scale(1);  
+    -webkit-transition: all 500ms ease-in-out; 
+    -moz-transition: all 500ms ease-in-out; 
+    -ms-transition: all 500ms ease-in-out;
+    -o-transition: all 500ms ease-in-out;      
+}      
+.imagen14:hover{
+    transform:scale(1.2);
+    -ms-transform:scale(1.2); 
+    -moz-transform:scale(1.2); 
+    -webkit-transform:scale(1.2);  
+    -o-transform:scale(1.2);  
+}
+.text37{
+    position:absolute;
+    left: 31%;
+    top: 5420px;
+    color: #ffffff;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 6mm;
+    min-width: 250px;
+}
+.text38{
+    position:absolute;
+    left: 31%;
+    top: 5550px;
+    color: #ffffff;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 6mm;
+    min-width: 250px;
+}
+/* Fin Debian */
+
+/* Fin cuarta sección de navegación */
+
+.text40{
+    position:absolute;
+    left: 400px;
+    top: 5826px;
+    color: #000000;
+    font-weight: normal;
+    font-size: 18px;
+    text-align: right;
+    text-transform: uppercase;
+    min-width: 250px;
+}
+.text41{
+    position:absolute;
+    left: 370px;
+    top: 5896px;
+    color: #000000;
+    font-weight: normal;
+    font-size: 18px;
+    text-align: right;
+    text-transform: uppercase;
+    min-width: 250px;
+}
+.text42{
+    position:absolute;
+    left: 420px;
+    top: 5966px;
+    color: #000000;
+    font-weight: normal;
+    font-size: 18px;
+    text-align: right;
+    text-transform: uppercase;
+    min-width: 250px;
+}
+.imagen15 {
+    background-image: url(logoead.png);
+    position: absolute;
+    visibility: visible;
+    height: 81px;
+    width: 341px;
+    top: 5876px;
+    left: 760px;
+}
+/* Fin pie de pagina */
+}

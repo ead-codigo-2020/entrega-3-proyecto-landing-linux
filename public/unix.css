@@ -1,0 +1,129 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+#header #top {
+    position:relative; max-width:1074px; min-width:320px; height:115px; margin:0 auto;
+}
+#header ul.menu {
+    position:relative; max-width:1008px; min-width:320px; height:95px;
+}
+#aux-main{
+    position:relative; max-width:1008px; min-width:320px; margin:0 auto;
+}
+#footer ul {
+    max-width:768px; min-width:320px; margin:10px auto; 
+}
+.page {
+    display: grid;
+}
+.page::after {
+    content: 'Visualización móviles';
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background: rgba( 255, 255, 255, 0.75 );
+    display: inline-block;
+    padding: 25px;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: 1px solid rgba( 0, 0, 0, 0.5 );
+    border-radius: 15px;
+}
+.page > * {
+    min-width: 20px;
+    min-height: 20px;
+}
+@media ( min-width: 768px ) {
+.page {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.page::after {
+    content: 'Visualización escritorio'
+}  
+/* Fin viewport */
+
+body {
+    font-family: "Lato";
+}
+.text1{
+    position:absolute;
+    left: 326px;
+    top: 375px;
+    color: #000000;
+    font-weight: normal;
+    font-size: 16px;
+    -webkit-transform: rotate(-23deg); 
+    -moz-transform: rotate(-23deg); 
+    -ms-transform: rotate(-23deg); 
+    -o-transform: rotate(-23deg); 
+    transform: rotate(-23deg); 
+    
+    -webkit-transform-origin: 50% 50%; 
+    -moz-transform-origin: 50% 50%; 
+    -ms-transform-origin: 50% 50%; 
+    -o-transform-origin: 50% 50%; 
+    transform-origin: 50% 50%; 
+}
+/* Fin navegación principal */
+
+.text5{
+    position:absolute;
+    left: 760px;
+    top: 580px;
+    color: #000000;
+    font-weight: normal;
+    font-size: 16px;
+}
+.text6{
+    position:absolute;
+    left: 760px;
+    top: 670px;
+    color: #000000;
+    font-weight: normal;
+    font-size: 16px;
+}
+.text7{
+    position:absolute;
+    left: 760px;
+    top: 740px;
+    color: #000000;
+    font-weight: normal;
+    font-size: 16px;
+}
+/* Fin navegación principal */
+
+.text9{
+    position:absolute;
+    left: 400px;
+    top: 970px;
+    color: #000000;
+    font-weight: normal;
+    font-size: 18px;
+    text-align: right;
+    text-transform: uppercase;
+}
+.text10{
+    position:absolute;
+    left: 370px;
+    top: 1040px;
+    color: #000000;
+    font-weight: normal;
+    font-size: 18px;
+    text-align: right;
+    text-transform: uppercase;
+}
+.text11{
+    position:absolute;
+    left: 420px;
+    top: 1110px;
+    color: #000000;
+    font-weight: normal;
+    font-size: 18px;
+    text-align: right;
+    text-transform: uppercase;
+}
+/* Fin pie de pagina */
+}
